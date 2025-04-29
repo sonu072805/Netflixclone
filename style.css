@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Poppins", "sans-serif";
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("bg.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+  /* width: 100vw; */
+  position: relative;
+  background-attachment: fixed;
+}
+
+.main .box {
+  height: 644px;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0%;
+  background-color: black;
+}
+
+nav {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  width: 145px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Martil Sans", "sans-serif";
+  height: calc(100% - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  padding: 0 30px;
+  gap: 8px;
+}
+
+.hero > :nth-child(1) {
+  margin-top: 37px;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+}
+
+.hero p {
+  display: none;
+}
+
+.hero > :nth-child(3) {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+.hero > :nth-child(4) {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.sepration {
+  height: 7px;
+  background-color: rgb(40, 39, 39);
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(248, 243, 243, 0.021);
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 11px 24px;
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.btn-red:hover {
+  background-color: rgb(215, 22, 22);
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+}
+
+.hero-buttons {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.main input {
+  padding: 20px 300px 14px 14px;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  color: white;
+}
+
+.secimg {
+  position: relative;
+}
+
+.secimg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+
+.secimg video {
+  position: absolute;
+  top: 74px;
+  right: 31px;
+  width: 451px;
+}
+
+section.first > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.first > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.first > div :nth-child(2) {
+  font-size: 24px;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+  /* font-weight: 900; */
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 34px;
+  font-size: 24px;
+}
+
+.faq svg {
+  filter: invert(1);
+}
+
+.faqbox:hover {
+  background-color: rgba(67, 63, 63, 0.852);
+}
+.faqbox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 34px auto -22px;
+  cursor: pointer;
+}
+
+.foot-panel {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+}
+
+footer {
+  background-color: black;
+}
+
+.foot-para {
+  background-color: black;
+  color: #e0d6d6c3;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 80px;
+  margin-left: 145px;
+  margin-bottom: 40px;
+}
+
+.foot-para a {
+  color: #e0d6d6c3;
+}
+
+ul a {
+  color: #e0d6d6c3;
+  display: block;
+  font-size: 0.96rem;
+  margin-top: 10px;
+}
+
+.foot-select {
+  margin-left: 148px;
+  margin-bottom: 100px;
+}
+
+select {
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8%;
+  font-weight: 600;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-bottom: -30px;
+}
+
+#email {
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 330px;
+  border-radius: 5%;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+#start {
+  background-color: red;
+  color: white;
+  padding: 13px 28px;
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: 400;
+  margin-left: -10px;
+}
+
+#start:hover {
+  background-color: rgb(215, 22, 22);
+}
